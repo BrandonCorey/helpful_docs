@@ -41,8 +41,10 @@ ex)
 - $ git checkout <insert branch name> --> switches to specified branch
 - $ git checkout -b <new branch name> --> creates new branch and switches to it all at once
 - $ git branch -d <insert branch name> --> deletes a branch (cannot delete branch that is currently checked out)
-NOTE: Before merging new branch with main branch, must stage and commit changes on new branch to local repo
-NOTE: After commiting changes on new branch, switch back to main branch, then execute the command below
+
+**NOTE:** Before merging new branch with main branch, must stage and commit changes on new branch to local repo
+
+**NOTE:** After commiting changes on new branch, switch back to main branch, then execute the command below
 - $ git merge <insert branch name> --> merges specified branch with current branch
 
 **IF YOU WANT NEED TO RENAME MASTER TO MAIN**
