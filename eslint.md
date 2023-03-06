@@ -1,4 +1,4 @@
-$ npm install eslint@7.12.1 eslint-cli babel-eslint --save-dev
+`npm install eslint@7.12.1 eslint-cli babel-eslint --save-dev`
 
 The eslint command takes a JavaScript file as an argument. For example, if you have a JavaScript file called test.js, you can run ESLint against the file like this:
 - $ npx eslint test.js
